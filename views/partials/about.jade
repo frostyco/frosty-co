@@ -1,0 +1,13 @@
+div(ng-controller="aboutCtrl")
+  .row.title-row.center
+    .large-12.columns
+      header.page-title.about.center.
+        We are Frosty.
+  .profile-row.bottom
+    .large-12.columns
+      .profiles
+        .large-3.small-6.columns.profile(ng-repeat="profile in profiles")
+          header.title= "{{profile.name}}"
+          .image-outer
+            img(src="{{profile.avatar_url}}")
+          p.bio= "{{profile.bio}}"
