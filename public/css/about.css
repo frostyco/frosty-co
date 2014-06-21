@@ -1,13 +1,4 @@
-body {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: url("https://randalltt.files.wordpress.com/2010/12/dsc_0006-enhanced-and-cropped-cold-morning-in-the-dale.jpg") no-repeat fixed center;
-  /* https://randalltt.files.wordpress.com/2010/12/dsc_0006-enhanced-and-cropped-cold-morning-in-the-dale.jpg */
-  /* http://img.wallpaperstock.net:81/cold-morning-wallpapers_20226_2560x1600.jpg */
-}
+
 .profile {
   border-radius: 5px;
   margin-left: 10px;

@@ -1,6 +1,12 @@
 body {
   font-family: Garamond, Sans-serif;
   color: white;
+  background: url(https://randalltt.files.wordpress.com/2010/12/dsc_0006-enhanced-and-cropped-cold-morning-in-the-dale.jpg)
+              no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .cover {
   height: 100%;
@@ -48,7 +54,7 @@ header.page-title {
   .column, .columns {
     padding-left: 0.5em;
     padding-right: 0.5em;
-  }
+}
 }
 
 /*** CLEARFIX ***/
@@ -61,20 +67,20 @@ header.page-title {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.cf:before,
-.cf:after {
+  .cf:before,
+  .cf:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.cf {
+  .cf {
     *zoom: 1;
 }
